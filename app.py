@@ -18,7 +18,7 @@ PRICES = {
     ("Annex", "eastleigh"): 150,
 }
 
-PLACES = ["Town", "Annex", "Kapsoya", "Kimumu", "Elgon View", "Langas", "Munyaka", "West Indies", "Kipkaren", "Ainabkoi"]
+PLACES = ["CBD", "Westlands", "Kilimani", "Kileleshwa", "Lavington", "Karen", "Langata", "Embakasi", "Kayole", "Buruburu", "Donholm", "Umoja", "Ruaka", "Thika Road", "Roysambu", "Kasarani", "Zimmerman", "South B", "South C", "Ngong Road", "Rongai", "Kawangware", "Kibera", "Dagoretti", "Eastleigh", "Pangani", "Parklands", "Kariobangi", "Dandora", "Githurai"]
 
 def get_price(frm, to):
     if frm == to:
