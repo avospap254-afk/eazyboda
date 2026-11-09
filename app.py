@@ -1,21 +1,21 @@
-from flask import os
-import Flask, request
+import os
+from flask import Flask, request
 
 app = Flask(__name__)
 
 # Prices in KSH - Eldoret real prices
 PRICES = {
-    ("Town", "Annex"): 100,
-    ("Town", "Kapsoya"): 150,
-    ("Town", "Kimumu"): 150,
+    ("Town", "kayole"): 100,
+    ("Town", "buruburu"): 150,
+    ("Town", "donholm"): 150,
     ("Town", "Elgon View"): 200,
-    ("Town", "Langas"): 100,
-    ("Town", "Munyaka"): 200,
-    ("Town", "West Indies"): 100,
-    ("Town", "Kipkaren"): 300,
-    ("Town", "Ainabkoi"): 250,
-    ("Annex", "Kapsoya"): 100,
-    ("Annex", "Kimumu"): 150,
+    ("Town", "Langata"): 100,
+    ("Town", "githurai"): 200,
+    ("Town", "West lands"): 100,
+    ("Town", "Karen"): 300,
+    ("Town", "utawala"): 250,
+    ("Annex", "south c"): 100,
+    ("Annex", "eastleigh"): 150,
 }
 
 PLACES = ["Town", "Annex", "Kapsoya", "Kimumu", "Elgon View", "Langas", "Munyaka", "West Indies", "Kipkaren", "Ainabkoi"]
